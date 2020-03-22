@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>생산자 달력</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.0.0-alpha.2/fullcalendar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>생산자 달력</h1>
+        <hr>
+        <div class="alert alert-danger">
+            모두는 생산자가 된다! 무엇이든 생산한 게 있다면 자랑해주세요.
+        </div>
+        <div>
+            <a href="https://docs.google.com/spreadsheets/d/1tN7lz3hwGi-um2YTRjjdAUyKJFRrSQO_HHeSO6t-A5A/edit?usp=sharing"
+               target="_blank"
+               class="btn btn-primary"
+            >
+                생산물 자랑하기
+            </a>
+        </div>
+        <hr>
+        <div id="calendar"></div>
+        <hr>
+        <div>
+            <span>사용 라이브러리:</span>
+            <ul>
+                <li>
+                    <a href="https://j.mp/2zkeaod" target="_blank">
+                        axios 0.19.2
+                    </a>
+                </li>
+                <li>
+                    <a href="https://j.mp/2zhDHhB" target="_blank">
+                        Moment.js 2.24.0
+                    </a>
+                </li>
+                <li>
+                    <a href="https://j.mp/2FAS9Hf" target="_blank">
+                        FullCalendar 4.0.0-alpha.2
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.0.0-alpha.2/fullcalendar.min.js"></script>
+    <script src="js/application.js"></script>
+</body>
+</html>
